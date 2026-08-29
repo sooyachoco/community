@@ -1,0 +1,21 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "community",
+  "main": "./worker.js",
+  "compatibility_date": "2026-08-29",
+  "assets": {
+    "directory": ".",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/*"]
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "gomlife-community",
+      "database_id": "a7e1b053-5328-442b-ba52-9025123c03ec"
+    }
+  ],
+  "observability": {
+    "enabled": true
+  }
+}
