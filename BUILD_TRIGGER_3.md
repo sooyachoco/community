@@ -1,1 +1,1 @@
-Cloudflare Workers Builds trigger 7.
+Cloudflare Workers Builds trigger 8.
